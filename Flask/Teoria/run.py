@@ -32,7 +32,8 @@ app.add_url_rule("/","index",index)
 def user(name):
     return "User: " + name
 
-# app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
 
 # Nota 2. si queremos ejecutar nuestra app sin pulsar el "Play" hay que hacer unas pequeñas
 # modificaciones en el virtualenv
