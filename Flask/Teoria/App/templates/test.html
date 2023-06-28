@@ -3,7 +3,11 @@
 <h1>Hello {{ name | capitalize }} </h1>
 <p> Un valor de una cadena: {{ name | upper | trim }}. </p>
 <p> Un valor de un entero: {{ myindex }}. </p>
+<<<<<<< HEAD
 <p> Un valor de una lista: {{ mylist[3] }}. </p>
+=======
+<p> Un valor de una lista: {{ mylist[myindex] }}. </p>
+>>>>>>> b2d099fb31dbbdf45a743b2361862163576a81ed
 <p> Un valor de una lista, con un índice variable: {{ mylist[myindex] }}. </p>
 <p> Un valor de un diccionario: {{ mydict['key'] }}. </p>
 <p> Un valor de una tupla: {{ mytuple[myindex] }}. </p>
