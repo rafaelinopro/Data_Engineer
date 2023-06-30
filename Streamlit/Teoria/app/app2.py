@@ -7,5 +7,6 @@ st.subheader("Aquí, un subtítulo")
 
 # Text
 st.text("Manuel el mejor TA estuvo aquí.")
+
 # Using st.write
 st.write("Se puede utilizar para texto y otras funciones.")
