@@ -1,6 +1,10 @@
 import streamlit as st
 # Write a page title
+<<<<<<< HEAD
 st.title('Hello World. Esto es un Title. Y ahora que?')
+=======
+st.title('Hello World. This is a Title Juan...')
+>>>>>>> 82a3d466cad8ac1496622423c7a1fee21f299d80
 
 # Al ejecutar este código nos tendremos que "logear" en Streamlit (solo nuestro correo)
 
