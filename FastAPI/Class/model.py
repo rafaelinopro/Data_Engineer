@@ -33,11 +33,21 @@ class IrisModel:
         X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
         model = RandomForestClassifier(n_estimators=100)
         model.fit(X_train, y_train)
+<<<<<<< HEAD
         return model 
+=======
+        return model
+>>>>>>> 4ee94ef719502ca1dcedf0eb8e483e7225b4ee19
 
     # 5. Realiza una predicción utilizando el modelo entrenado
     def predict_species(self, sepal_length, sepal_width, petal_length, petal_width):
         data_in = [[sepal_length, sepal_width, petal_length, petal_width]]
+<<<<<<< HEAD
         prediction = self.model.predict(data_in).tolist()
         probability = self.model.predict_proba(data_in).tolist()
         return prediction, probability
+=======
+        prediction_proba = self.model.predict_proba(data_in).tolist()
+        prediction = self.model.predict(data_in).tolist()
+        return prediction, prediction_proba
+>>>>>>> 4ee94ef719502ca1dcedf0eb8e483e7225b4ee19
