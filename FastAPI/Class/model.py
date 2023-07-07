@@ -49,5 +49,9 @@ class IrisModel:
 =======
         prediction_proba = self.model.predict_proba(data_in).tolist()
         prediction = self.model.predict(data_in).tolist()
+<<<<<<< HEAD
         return prediction, prediction_proba
 >>>>>>> 4ee94ef719502ca1dcedf0eb8e483e7225b4ee19
+=======
+        return prediction[0], prediction_proba[0]
+>>>>>>> 69e5547c90f067ece325601f878c99b64debd886
