@@ -5,7 +5,6 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-<<<<<<< HEAD
 # @app.route("/about")
 # def learn():
 #     return "Flask for web developers!"
@@ -15,21 +14,6 @@ def greetings(your_name):
     """Función de vista para saludar al usuario por su nombre."""
     return "¡Bienvenido " + your_name + "!"
 
-=======
-
-@app.route("/")
-def home():
-    return render_template("home.html")
-
-@app.route("/about")
-def learn():
-    return "Flask for web developers!"
-
-@app.route("/<your_name>")
-def greetings(your_name):
-    """Función de vista para saludar al usuario por su nombre."""
-    return "¡Bienvenido " + your_name + "!"
->>>>>>> b2d099fb31dbbdf45a743b2361862163576a81ed
 
 @app.route("/user/<name>")
 def index(name):
