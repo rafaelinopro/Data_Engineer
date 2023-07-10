@@ -1,4 +1,8 @@
 flask
 numpy
 pandas
+<<<<<<< HEAD
 scikit-learn
+=======
+scikit-learn
+>>>>>>> a9759796c8178a69a88f79e74f393076e79d39d7
